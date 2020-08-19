@@ -16,4 +16,5 @@ class UsersPing(Resource):
             'message': 'Ping! Welcome user!'
         }
 
+
 api.add_resource(UsersPing, '/users/ping')
